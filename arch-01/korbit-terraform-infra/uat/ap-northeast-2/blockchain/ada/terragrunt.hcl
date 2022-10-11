@@ -1,7 +1,7 @@
 # infrastructure-live/prod/app/terragrunt.hcl
 terraform {
   source =
-    "github.com:/-terraform-modules.git//ec2?ref=v0.0.1"
+    "github.com:/terraform-modules.git//ec2?ref=v0.0.1"
 }
 inputs = {
   instance_name = "thorchain"

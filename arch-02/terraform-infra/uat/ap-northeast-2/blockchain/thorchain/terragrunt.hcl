@@ -1,4 +1,4 @@
-# -terraform-infra/uat/blockchain/ada/terragrunt.hcl
+# terraform-infra/uat/blockchain/ada/terragrunt.hcl
 terraform {
   source =
     "github.com:/terraform-modules.git//ec2?ref=v0.0.1"
